@@ -1,0 +1,34 @@
+[
+    {
+        "question":"How does logistic regression turn input features into a probability?",
+        "answer":"It computes a linear combination of the features and bias, then applies the sigmoid function to map the result to a value between 0 and 1."
+    },
+    {
+        "question":"What role does the classification threshold play in logistic regression?",
+        "answer":"It determines how the predicted probability is converted into a class; a common threshold is 0.5."
+    },
+    {
+        "question":"Why is the sigmoid function useful for classification?",
+        "answer":"It transforms the model's linear output into a probability between 0 and 1."
+    },
+    {
+        "question":"How are the parameters of a logistic regression model estimated?",
+        "answer":"Using Maximum Likelihood Estimation."
+    },
+    {
+        "question":"What do the coefficients in logistic regression represent?",
+        "answer":"They represent changes in log-odds."
+    },
+    {
+        "question":"How can a logistic regression coefficient be expressed as an odds ratio?",
+        "answer":"Exponentiate the coefficient."
+    },
+    {
+        "question":"Why is logistic regression called regression even though it is used for classification?",
+        "answer":"It estimates a continuous linear combination of the input features before producing a classification."
+    },
+    {
+        "question":"What makes logistic regression a supervised learning algorithm?",
+        "answer":"It is a supervised machine learning algorithm used for classification."
+    }
+]

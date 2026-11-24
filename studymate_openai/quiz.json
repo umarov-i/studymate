@@ -1,0 +1,46 @@
+[
+    {
+        "question":"What role does the sigmoid function play in logistic regression?",
+        "options":[
+            "It converts the linear combination of features into a probability between 0 and 1.",
+            "It selects which input features should be removed.",
+            "It estimates the model parameters by maximizing likelihood.",
+            "It converts probabilities into continuous input features."
+        ],
+        "answer_index":0,
+        "explanation":"The sigmoid function transforms the model's linear value, z, into a value between 0 and 1 that can be interpreted as a probability."
+    },
+    {
+        "question":"How is the probability produced by logistic regression typically used to make a classification?",
+        "options":[
+            "It is compared with a classification threshold, commonly 0.5.",
+            "It is multiplied by each input feature and summed again.",
+            "It is always rounded to the nearest whole number before evaluation.",
+            "It is used as the model's estimate of its coefficients."
+        ],
+        "answer_index":0,
+        "explanation":"Logistic regression compares its predicted probability with a threshold, commonly 0.5, to assign a class."
+    },
+    {
+        "question":"What does exponentiating a logistic regression coefficient give?",
+        "options":[
+            "The odds ratio associated with that coefficient.",
+            "The probability that the model is correct.",
+            "The classification threshold.",
+            "The linear combination of all input features."
+        ],
+        "answer_index":0,
+        "explanation":"A coefficient represents a change in log-odds; exponentiating it gives the corresponding odds ratio."
+    },
+    {
+        "question":"Why is logistic regression called \u201cregression\u201d even though it is used for classification?",
+        "options":[
+            "It estimates a continuous linear combination of input features before producing a classification.",
+            "It predicts a continuous target rather than a class.",
+            "It uses no probabilities when assigning classes.",
+            "It estimates parameters by counting the number of classes."
+        ],
+        "answer_index":0,
+        "explanation":"The model first calculates a continuous linear combination of its input features. It transforms that value into a probability and uses the probability for classification."
+    }
+]
